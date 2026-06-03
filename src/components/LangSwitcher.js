@@ -16,12 +16,13 @@ export default function LangSwitcher() {
     if (saved) setLang(saved);
   }, []);
 
-  const changeLang = (l) => {
-    document.cookie = `lang=${l}; path=/`;
-    setLang(l);
+const changeLang = (l) => {
+  document.cookie = `lang=${l}; path=/; max-age=31536000`;
+  setLang(l);
 
-    router.refresh(); //  CRUCIAL (remplace reload)
-  };
+  window.dispatchEvent(new Event("lang-change"));
+  router.refresh();
+};
 
   return (
     <div className="lang-switcher">
