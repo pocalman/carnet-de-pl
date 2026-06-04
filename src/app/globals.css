@@ -452,6 +452,8 @@ main li {
 .blog-card-link {
   display: flex;
   align-items: stretch;
+    text-decoration: none;
+  color: inherit;
 }
 
 /* IMAGE */
@@ -474,6 +476,8 @@ main li {
   flex-direction: column;
   justify-content: center;
 }
+
+
 
 .blog-date {
   font-size: 12px;
