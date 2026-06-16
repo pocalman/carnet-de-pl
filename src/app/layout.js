@@ -8,6 +8,23 @@ const inter = Inter({
   display: "swap",
 });
 
+export const metadata = {
+  title: {
+    default: "Les Carnets de PL",
+    template: "%s | Les Carnets de PL",
+  },
+  description:
+    "Blogue consacré au développement web, au SEO, à Next.js et aux projets numériques de Pascal Lévesque.",
+  keywords: [
+    "SEO",
+    "Next.js",
+    "React",
+    "Développement web",
+    "Blog",
+    "Programmation",
+  ],
+};
+
 export default async function RootLayout({ children }) {
   const lang = (await cookies()).get("lang")?.value || "fr";
 
