@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://carnet-de-pl.vercel.app/</loc>
+       <lastmod>2026-10-13T00:24:47+00:00</lastmod>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://carnet-de-pl.vercel.app/projects</loc>
+       <lastmod>2026-10-13T00:24:47+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://carnet-de-pl.vercel.app/blog</loc>
+       <lastmod>2026-10-13T00:24:47+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://carnet-de-pl.vercel.app/about</loc>
+       <lastmod>2026-10-13T00:24:47+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://carnet-de-pl.vercel.app/blog/ai-seo-search</loc>
+       <lastmod>2026-10-13T00:24:47+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://carnet-de-pl.vercel.app/projects/benny-au-coq</loc>
+       <lastmod>2026-10-13T00:24:47+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+</urlset>
